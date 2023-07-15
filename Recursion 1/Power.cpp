@@ -29,6 +29,12 @@
 //     cout << power(x, n) << endl;
 // }
 
+
+/*
+  Time Complexity : O(n)
+  Space Complexity : O(n)
+  where n is the exponent
+*/
 int power(int x, int n) {
   /* Don't write main().
      Don't read input, it is passed as function argument.

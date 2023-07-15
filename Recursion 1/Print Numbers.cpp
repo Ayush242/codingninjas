@@ -26,6 +26,11 @@
 //     print(n);
 // }
 
+
+/*
+  Time Complexity : O(n)
+  Space Complexity : O(n)
+*/
 void print(int n){
     //write your code here
     

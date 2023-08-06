@@ -1,6 +1,5 @@
 //  Given a string s, print all its subsequences
 
-
 //Approach 1
 #include<bits/stdc++.h>
 using namespace std;
@@ -27,3 +26,6 @@ int main(){
     cout<<output[i]<<endl;
   }
 }
+
+
+// Approach 2

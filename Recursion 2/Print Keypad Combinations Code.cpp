@@ -17,6 +17,10 @@
 //     ce
 //     cf
 
+// Time Complexity: O(4^n), where n is a number of digits in the input number. Each digit of a number has 3 or 4 alphabets, thus it can be said that each 
+// digit has 4 alphabets asoptions. If there are n digits then there are 4 options for the first digit and for each alphabet of the first digit there are 
+// 4 options in the second digit, i.e for every recursion 4 more recursions are called (if it does not match the base case). Therefore the time complexity 
+// is O(4^n).
 
 #include <bits/stdc++.h>
 using namespace std;

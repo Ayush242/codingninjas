@@ -1,6 +1,7 @@
 //  Given a string s, print all its subsequences
 
 //Approach 1
+// TIME COMPLEXITY : O(2^n)
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -29,6 +30,8 @@ int main(){
 
 
 // Approach 2
+// TIME COMPLEXITY : O(2^n)
+
 void subs(string input,string output){
   if(input.empty()){
     cout<<output<<endl;

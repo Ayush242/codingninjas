@@ -22,6 +22,8 @@
 // ce
 // cf
 
+Time Complexity: O(4^n)
+
 #include <string>
 using namespace std;
 string chars(int num){

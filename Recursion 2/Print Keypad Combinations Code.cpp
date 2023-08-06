@@ -17,3 +17,25 @@
 //     ce
 //     cf
 
+
+#include <bits/stdc++.h>
+using namespace std;
+
+string getString(int num){
+    string letters[]= {"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+    return letters[num];
+}
+void printKeypad(int num, string output){
+    if(num ==0){
+        cout<<output<<endl;
+        return;
+    }
+    string ans = getString(num%10);
+    for(char c: ans){
+        printKeypad(num/10, c + output);
+    }
+}
+
+void printKeypad(int num){
+    printKeypad(num,"");
+}
